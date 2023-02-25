@@ -1,0 +1,78 @@
+body{
+    display:flex;
+    width: 100%;
+    font-family: 'Times New Roman';
+    flex-direction: column;
+}
+.img {
+    position:left;
+    width: 329px;
+    height: 57px;
+    left: 94px;
+    border-top: 55px;
+
+    background: url(image.png);
+}
+.tem {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+
+}
+.entrar{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+.email-senha {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 38px;
+    width: 566px;
+    height: 53px;
+    left: 94px;          
+}
+.botton {
+    font-family: 'Times New Roman';
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    width: 214px;
+    padding-top: 100px;
+    margin: 0px;  
+   
+}
+.comoacesso {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    width: 100%;
+    font-size: 29px;
+    top: 50px;
+    margin:0px;
+    padding: 0px;
+}
+.provedor {
+    font-family: 'Times New Roman';
+    display: flex;
+    flex-direction: column;         
+    width: 404.5px;
+    height: 55px;
+    left: 94px;
+    border-bottom: 2px;
+}
