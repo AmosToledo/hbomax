@@ -76,3 +76,45 @@ body{
     left: 94px;
     border-bottom: 2px;
 }
+    /*introdução para telas menores*/
+    @media only screen and (max-width: 600px){
+        body {
+            flex-direction: column;
+            align-items: center;
+        }
+        .entrar{
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            align-items: center;
+            font-size: 35px;
+        }
+        .tem {
+            flex-direction: column;
+            width: auto;
+        }
+        .email-senha{
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            width: auto;
+            margin-bottom: 0%;
+            font-size: 25px;
+        } 
+        .botton {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .comoacesso {
+            flex-direction: column;
+            text-align: center;
+            font-size: 25px;
+        }
+        .provedor{
+            flex-direction: column;
+            align-items: center;
+            
+            
+        }   
+    }
